@@ -1,0 +1,582 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+                <link rel="stylesheet" href="/path/to/jquery.mCustomScrollbar.css" />
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                <script src="/path/to/jquery.mCustomScrollbar.concat.min.js"></script>
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                
+                <style>
+                    .logo{
+                        width:85%; 
+                        height:auto;
+                    }
+                    
+                    .back-intro{
+                        background-image: url('images/escritorios_pagina2.png'); 
+                        background-attachment: fixed; 
+                        background-position: top right; 
+                        background-repeat: no-repeat; 
+                        background-size: auto 100%; 
+                        color:#30303e;
+                    }
+                    
+                    .div intro-text{
+                        background-color: rgba(48, 48, 62, 0.8);
+                        border: solid 1px !important;
+                        border-color: rgba(135, 168, 83, 1);
+                        border-radius: 3em;
+                        color: #8fb355 !important;
+                    }
+                    
+                    @media screen and (max-width: 1280px){
+                        .logo{
+                        width:25%; 
+                        height:auto;
+                    }
+                    
+                    .back-intro{
+                        background-image: url('images/escritorios_pagina2.png'); 
+                        background-attachment: fixed; 
+                        background-position: top right; 
+                        background-repeat: no-repeat;
+                        color:#30303e;
+                    }
+                    }
+                </style>
+                
+                <style>
+                                    a {
+                                        boder:0px;
+                                    }
+                                    .logos-emp{
+                                        width:100%; 
+                                        max-height:258px; 
+                                        padding: 10%;
+                                    }
+                                </style>    
+                
+                <script>
+                    (function($){
+                        $(window).on("load",function(){
+                            $(".content").mCustomScrollbar();
+                        });
+                    })(jQuery);
+                </script>
+	</head>
+	<body>
+            <div class="mCustomScrollbar" data-mcs-theme="dark">
+  
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+                                                    <li><img src='images/cieet2.png' class="logo"></li>
+							<li><a href="#intro">Inicio</a></li>
+							<li><a href="#one">Acerca</a></li>
+							<li><a href="#two">Proyectos</a></li>
+							<li><a href="#three">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up back-intro">
+						<!--<div class="inner intro-text">
+							<h1 style="color:#30303e;">Título</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit magna sit amet turpis faucibus, nec fringilla ante congue. <a href="">Sed ut velit in augue luctus euismod sed quis libero.</a>.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Ir</a></li>
+							</ul>
+						</div>-->
+                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                    <!-- Indicators -->
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                                    </ol>
+
+                                                    <!-- Wrapper for slides -->
+                                                    <div class="carousel-inner">
+                                                        <div class="item active">
+                                                            <img src="images/slide01.jpg" alt="Los Angeles">
+                                                        </div>
+
+                                                        <div class="item">
+                                                            <img src="images/escritorios_pagina2.png" alt="Chicago">
+                                                        </div>
+
+                                                        <div class="item">
+                                                            <img src="images/programando.jpg" alt="New York">
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Left and right controls -->
+                                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            
+					</section>
+
+				<!-- One -->
+                                <section id="one" class="wrapper style2 spotlights" style="color:#30303e;">
+						<section>
+							<a href="#" class="image"><img src="images/personal-1.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2 style="color:#30303e;">Sed ipsum dolor</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="#" class="button" style="color:#30303e;">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/personal-2.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2 style="color:#30303e;">Feugiat consequat</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="#" class="button" style="color:#30303e;">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/personal-4.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2 style="color:#30303e;">Ultricies aliquam</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="#" class="button" style="color:#30303e;">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+                               
+                                <!-- Two -->
+                                <section id="two" class="wrapper style2 fade-up" >
+                                    <div class="inner" style="color:#fff;">
+							<h2 style="color:#000; font-family:Times New Roman; border-bottom: 1px dotted #000; line-height: 1.6;">Proyectos</h2>
+							<p style="color:#000;">Se han realizado diversos proyectos en los cuales se ha brindado el apoyo a empresas rurales y de los sectores sociales 
+                                                            a través de la investigacion estadística, empresarial, consultoría empresarial o a organizaciones gubernamentales, desarrollo de 
+                                                            estrategia empresarial, diseño de planes de negocio, diseño de manuales de operación, estudios de factibilidad, económicos y socioeconómicos.<br>
+                                                            A continuación se muestran los principales proyetos que se han desarrollado.</p>
+                                                        <p><br></p>
+							<div class="features">
+                                                            <div class="timeline" style="color:#30303e; font-family: -WEBKIT-PICTOGRAPH;">
+                                                                <div class="containertime left">
+                                                                  <div class="contentime">
+                                                                    <h3 style="color:#8caf54; text-align: right;">2011</h3>
+                                                                    <ul>
+                                                                        <div class="timeline-image">
+                                                                            <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                                                                          </div>
+                                                                          <div class="timeline-panel">
+                                                                            <div class="timeline-body">
+                                                                                <span style=" text-align: right;">
+                                                                                    <p style="color:#888888;"><i>- Evaluación del Impacto productivo de un invernadero.</i></p>
+                                                                                    <p><i>- Estudio de Impacto productivo de un viñedo.</i></p>
+                                                                                </span>
+                                                                            </div>
+                                                                          </div>
+                                                                    </ul>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="containertime right">
+                                                                  <div class="contentime">
+                                                                    <h3 style="color:#8caf54;">2012</h3>
+                                                                    <p style="color:#888888;"><i>- Manuales para productores y técnicos de diferentes hortalizas.</i></p>
+                                                                    <p><i>- Manuales de producción de chile, tomate y pepino en diferentes tecnologías de agricultura protegida.</i></p>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="containertime left">
+                                                                  <div class="contentime">
+                                                                    <h3 style="color:#8caf54; text-align: right;">2013</h3>
+                                                                    <span style=" text-align: right;">
+                                                                        <p style="color:#888888;"><i>- Proyecto para la instalación de una casa sombra en Palma de la Cruz, Soledad de Graciano Sánchez, S.L.P.</i></p>
+                                                                        <p><i>- Análisis de Invernaderos en Villa de Arista y Recomendaciones.</i></p>
+                                                                        <p style="color:#888888;"><i>- Proyecto Centro de Desarrollo Cafetalero Potosino.</i></p>
+                                                                    </span>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="containertime right">
+                                                                  <div class="contentime">
+                                                                    <h3 style="color:#8caf54;">2014</h3>
+                                                                    <ul>
+                                                                        <p style="color:#888888;"><i>- Producción de Pollo en el Municipio de Rayón.</i></p>
+                                                                    </ul>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="containertime left">
+                                                                  <div class="contentime">
+                                                                    <h3 style="color:#8caf54; text-align: right;">2015</h3>
+                                                                    <span  style=" text-align: right;">
+                                                                        <p style="color:#888888;"><i>- Proyecto estratégico para el desarrollo social de los productores de nopal tunero en la región altiplano.</i></p>
+                                                                        <p><i>- Proyecto estratégico para el desarrollo social de los productores de lechuguilla en la región altiplano.</i></p>
+                                                                        <p style="color:#888888;"><i>- Proyecto estratégico para el desarrollo social de los productores del agave mezcalero en la región altiplano.</i></p>
+                                                                    </span>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="containertime right">
+                                                                  <div class="contentime">
+                                                                    <h3 style="color:#8caf54;">2016</h3>
+                                                                    <p style="color:#888888;"><i>- Producción de chile en invernadero.</i></p>
+                                                                    <p><i>- Producción de nopal verdura en macro tunel.</i></p>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="containertime left">
+                                                                  <div class="contentime">
+                                                                      <h3 style="color:#8caf54; text-align: right;">2017</h3>
+                                                                      <span style=" text-align: right;">
+                                                                          <p style="color:#888888;"><i>- Diseño de Proyectos culturales.</i></p>
+                                                                          <p><i>- Producción de hortalizas en invernadero.</i></p>
+                                                                      </span>
+                                                                  </div>
+                                                                </div>
+                                                                
+                                                              </div>
+							</div>
+						</div>
+					</section>
+
+                                
+                                
+                                
+                                                       
+                                
+                                
+                                
+  <section id="two" class="wrapper style2 fade-up"  style="background-color:#3f3f50; border-left:1px dotted #8eb255;">
+                                    <div class="inner" style="color:#fff;">                        
+    <div class="container-fluid">
+        <h2 style="color:#fff; font-family:Times New Roman; border-bottom: 1px dotted #fff; line-height: 1.6;">Clientes</h2>
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+              <a class="portfolio-box" href="logos clientes/blanco/mestre.png" style="border:0px;">
+                  <img class="image img-fluid logos-emp" src="logos clientes/blanco/mestre.png" alt="">
+                </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+                <a class="portfolio-box" href="logos clientes/blanco/sedea2.png"  style="border:0px;">
+                    <img class="image img-fluid logos-emp" src="logos clientes/blanco/sedea2.png" alt="">
+                </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+                <a class="portfolio-box" href="logos clientes/blanco/vitivinicultores.png"  style="border:0px;">
+                    <img class="image img-fluid logos-emp" src="logos clientes/blanco/vitivinicultores.png" alt="">
+                </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/sagarpa.png"  style="border:0px;">
+              <img class="img-fluid logos-emp" src="logos clientes/blanco/sagarpa.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/sedesore.png"  style="border:0px;">
+              <img class="img-fluid logos-emp" src="logos clientes/blanco/sedesore.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/conaza.png" style="border:0px;">
+              <img class="img-fluid logos-emp" src="logos clientes/blanco/conaza.png" alt="">
+            </a>
+          </div>
+            
+            
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/seccultura.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/blanco/seccultura.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/alinvest.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/blanco/alinvest.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/iica copia.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/blanco/iica copia.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/logo-gusi copia.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/blanco/logo-gusi copia.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div>
+            
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/valles2 copia.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/blanco/valles2 copia.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/uqam2 copia.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/blanco/uqam2 copia.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div>
+            
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/eaton copia.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/blanco/eaton copia.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/blanco/cedrssa2.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/blanco/cedrssa2.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div> 
+          <div class="col-lg-4 col-sm-6" style=" margin: auto auto;">
+            <a class="portfolio-box" href="logos clientes/uaslp.png" style="border:0px;">
+              <img class="img-fluid" src="logos clientes/uaslp.png" style="width:100%; max-height:258px; padding: 10%;" alt="">
+            </a>
+          </div> 
+            
+        </div>
+      </div>
+                                
+        </div>
+        </section>                         
+                                
+                                
+                                
+                                
+                                
+                                
+				<!-- Two -->
+                                <!-- 
+                                <section id="two" class="wrapper style3 fade-up" style="background-image: url('images/servicios.jpg'); background-attachment: fixed; background-position: top right; background-repeat: no-repeat; background-size: 100% 100%;">
+                                    <div class="inner" style="color:#fff;">
+							<h2 style="color:#000;">Clientes</h2>
+							<p style="color:#000;">Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="features">
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>Mestre Relocation</h3>
+									
+                                                                        <img src="logos clientes/mestre.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+								</section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>Secretaría de Desarrollo Agropecuario</h3>
+									
+                                                                        <img src="logos clientes/sedea.jpg" width="100" height="auto">
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>Asociación de vitivinicultores de Querétaro</h3>
+									
+                                                                        <img src="logos clientes/vitivinicultores.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>SAGARPA</h3>
+									
+                                                                        <img src="logos clientes/sagarpa.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>SEDESORE</h3>
+									
+                                                                        <img src="logos clientes/sedesore.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>CONAZA</h3>
+									
+                                                                        <img src="logos clientes/conaza.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+                                                                </section>
+                                                            
+                                                            
+                                                                <section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>Secretaría de Cultura</h3>
+									
+                                                                        <img src="logos clientes/seccultura.jpg" width="100" height="auto">
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>All Invest</h3>
+									
+                                                                        <img src="logos clientes/alinvest.jpg" width="100" height="auto">
+                                                                </section>
+                                                                <section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>IICA</h3>
+									
+                                                                        <img src="logos clientes/iica.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>GUSI</h3>
+									
+                                                                        <img src="logos clientes/gusi.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+                                                                </section>
+                                                                <section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>Municipio de Cd. Valles</h3>
+									
+                                                                        <img src="logos clientes/valles.jpg" width="100" height="auto">
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>UQÁM</h3>
+									
+                                                                        <img src="logos clientes/uqam2.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+                                                                </section>
+                                                            
+                                                            
+                                                            
+                                                            
+                                                                <section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>EATON</h3>
+									
+                                                                        <img src="logos clientes/eaton.png" width="100" height="auto" style="background-color:#fff; padding: 2%;">
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>CEDRSSA</h3>
+									
+                                                                        <img src="logos clientes/cedrssa2.jpg" width="100" height="auto">
+                                                                </section>
+                                                                <section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>UASLP</h3>
+									
+                                                                        <img src="logos clientes/uaslp.png" width="100" height="auto" >
+                                                                </section>
+								<section>
+									<span class="icon major fa-circle-o"></span>
+									<h3>Aliquam urna dapibus</h3>
+									
+                                                                        <img src="logos clientes/" width="100" height="auto">
+                                                                </section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+                                -->
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+
+				<!-- Three -->
+                                <section id="three" class="wrapper style1 fade-up" style="border-left:1px dotted #8eb255;">
+						<div class="inner">
+							<h2 style="color:#30303e;">Contáctanos</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="field half first">
+											<label for="name">Nombre</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Correo</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Mensaje</label>
+											<textarea name="message" id="message" rows="5"></textarea>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Enviar mensaje</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3 style="color:#30303e;">Dirección</h3>
+											<span>Monte Everest #120<br />
+											San Luis Potosí, San Luis Potosí, 78434<br />
+											México</span>
+										</li>
+										<li>
+											<h3 style="color:#30303e;">Correo</h3>
+											<a href="#">contacto@cieet.com</a>
+										</li>
+										<li>
+											<h3 style="color:#30303e;">Teléfono</h3>
+											<span>(000) 000-0000</span>
+										</li>
+										<li>
+											<h3 style="color:#30303e;">Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="fa-twitter" style="color: #89ab53;"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="fa-facebook"  style="color: #89ab53;"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="fa-github"  style="color: #89ab53;"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="fa-instagram"  style="color: #89ab53;"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="fa-linkedin"  style="color: #89ab53;"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+                        
+                        <!-- your content -->
+</div>
+	</body>
+</html>

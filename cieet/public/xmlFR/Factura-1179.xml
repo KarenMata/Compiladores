@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" folio="1179" fecha="2016-01-28T22:02:00" formaDePago="PAGO EN UNA SOLA EXHIBICIÓN" subTotal="591.38" Moneda="MXN" total="686" tipoDeComprobante="ingreso" metodoDePago="Efectivo" LugarExpedicion="SAN LUIS POTOSI, SAN LUIS POTOSI" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" noCertificado="00001000000301877679" certificado="MIIEaDCCA1CgAwIBAgIUMDAwMDEwMDAwMDAzMDE4Nzc2NzkwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMTgxODMyMzZaFw0xNzEyMTgxODMyMzZaMIG0MR0wGwYDVQQDExRBTEFTIENVQVRSTyBTQSBERSBDVjEdMBsGA1UEKRMUQUxBUyBDVUFUUk8gU0EgREUgQ1YxHTAbBgNVBAoTFEFMQVMgQ1VBVFJPIFNBIERFIENWMSUwIwYDVQQtExxBQ1UwOTA4MjFDNzUgLyBBT0dDODAwOTE1UFcyMR4wHAYDVQQFExUgLyBBT0dDODAwOTE1SFRTUlRSMDkxDjAMBgNVBAsTBUxvbWFzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCGrwlOrZ5EhUhXft4/89YD8htgcffOYwkD7hbD480DiIzwJuDJ/XE65E0Vc3/6HGVKzJQQyu35l1mvlCy9+jDqG9O0OQwwcojvsled1uZgbKSxrPfADa1OGmdTj1Cln5YrLyeOZmn+FyzOt1OvfQrAJxKxVJTEUyavadw1xa2qBwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAGKxW46mJ6f9WKaBxwQEQgkzS3jQSorb+DZkBjDrNbreBUtzwHT0CTOl+c7P6CV1iXBaeSNKRJaFZP8ditVEZYdkOYGGUMkYKXUBSQxLoAUVIN9hhxPHVxOZ0x99Diwgg/HDapU628QXpP3d08d8fT0c830rlog+yOwxmeWRwP+Ptfq+NkslMQxqJfq0d8EYAbVAH3YdG39f0CHJ0yXTKvFCZb50WxjchwFEShQXTEIbRmut57SdhWBbjB26uqE26xrpWCINKUsRrC8AvePXqYjx+KfRtnencAgvx+nPSq+XXZg65Psub4N8RnVL1K5Mh+th/MQ3UygaR4doMCYNJGg==" sello="MyQf1xEEgm8qYPJdA2PIwZgW4ag2WjWd3A2rlm106Kjv9EgBj2OFsyH9DhEH7CtfnDrO6CM38i7Ikf8FtYVHyoWKLqvw4TliFZbukMfe0MRECS0k8u+vIUp59tbxYuxfsl/Dyv+EJ1jdpgYrehvrMXeIqiBNPLDlJ/p9xn26cHI=">
+  <cfdi:Emisor rfc="ACU090821C75" nombre="ALAS CUATRO SA DE CV">
+    <cfdi:DomicilioFiscal calle="CALLE CORDILLERA REAL" noExterior="225" noInterior="12 Y 13" colonia="LOMAS DE SAN LUIS 3A SECCION" localidad="SAN LUIS POTOSÍ" municipio="SAN LUIS POTOSI" estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="78216" />
+    <cfdi:ExpedidoEn calle="CALLE CORDILLERA REAL" noExterior="225" noInterior="12 Y 13" colonia="LOMAS DE SAN LUIS 3A SECCION" localidad="SAN LUIS POTOSÍ" municipio="SAN LUIS POTOSI" estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="78216" />
+    <cfdi:RegimenFiscal Regimen="GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="IPI001124PX5" nombre="INSTITUTO POTOSINO DE INVESTIGACIÓN CIENTÍFICA Y TECNOLÓGICA A.C.">
+    <cfdi:Domicilio calle="CAMINO A LA PRESA SAN JOSE" noExterior="2055" colonia="LOMAS 4a SECCION" localidad="S.L.P." municipio="S.L.P." estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="78216" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="NO APLICA" descripcion="consumo" valorUnitario="591.38" importe="591.38" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="94.6206">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16" importe="94.6206" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="C34382BE-39A8-49F8-ACCF-44A62C1B95BF" FechaTimbrado="2016-01-27T22:03:50" selloCFD="MyQf1xEEgm8qYPJdA2PIwZgW4ag2WjWd3A2rlm106Kjv9EgBj2OFsyH9DhEH7CtfnDrO6CM38i7Ikf8FtYVHyoWKLqvw4TliFZbukMfe0MRECS0k8u+vIUp59tbxYuxfsl/Dyv+EJ1jdpgYrehvrMXeIqiBNPLDlJ/p9xn26cHI=" noCertificadoSAT="00001000000300392385" selloSAT="123+f3DZ/nqu86ZkoSgy7q2k7I56++ChtHbQtUm8MeKy2CFMFZwZRNOqrHd5BdgZwdUhQ2LpjIKfwPe5R+6zYwQMvwnWErr2jkrFjCZEmvhsFZYWbJk7obkUO+t44lr7KkHuvNFpZX+/SqBCTa8A4tTjpEliYHMqO6UvXTfaQKc=" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
